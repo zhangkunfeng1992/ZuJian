@@ -1,0 +1,6 @@
+framework module HomeUI {
+  umbrella header "HomeUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
