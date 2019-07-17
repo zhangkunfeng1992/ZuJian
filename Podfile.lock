@@ -2,15 +2,15 @@ PODS:
   - HomeUI (0.1.0)
 
 DEPENDENCIES:
-  - HomeUI (from `./UI/HomeUI`)
+  - HomeUI (from `./UI`)
 
 EXTERNAL SOURCES:
   HomeUI:
-    :path: "./UI/HomeUI"
+    :path: "./UI"
 
 SPEC CHECKSUMS:
   HomeUI: e5dcf62f3340f62d680506cb65acb8be2935fb10
 
-PODFILE CHECKSUM: b6de1647b109d58ad3723f8926e8a19b52dc5484
+PODFILE CHECKSUM: 091d9b2104ff2a65e240892793ef4b08b76101d4
 
 COCOAPODS: 1.6.0.beta.2

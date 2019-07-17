@@ -4,6 +4,6 @@
 target 'Zujian' do
 
 
-pod 'HomeUI', :path=>'./UI/HomeUI'
+pod 'HomeUI', :path=>'./UI'
 
 end
