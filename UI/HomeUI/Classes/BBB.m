@@ -10,8 +10,6 @@
 @implementation BBB
 
 -(void)aaa{
-//    第一欧航
-//    第二行
 }
 
 @end
