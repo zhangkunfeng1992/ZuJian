@@ -9,5 +9,8 @@
 
 @implementation BBB
 
+-(void)aaa{
+    
+}
 
 @end
