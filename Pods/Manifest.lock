@@ -1,16 +1,66 @@
 PODS:
-  - HomeUI (0.1.0)
+  - MJRefresh (3.1.15.6)
+  - OMGHTTPURLRQ (3.2.4):
+    - OMGHTTPURLRQ/RQ (= 3.2.4)
+  - OMGHTTPURLRQ/FormURLEncode (3.2.4)
+  - OMGHTTPURLRQ/RQ (3.2.4):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (3.2.4)
+  - PromiseKit (1.7.7):
+    - PromiseKit/CALayer (= 1.7.7)
+    - PromiseKit/NSNotificationCenter (= 1.7.7)
+    - PromiseKit/NSURLConnection (= 1.7.7)
+    - PromiseKit/Pause (= 1.7.7)
+    - PromiseKit/UIActionSheet (= 1.7.7)
+    - PromiseKit/UIAlertView (= 1.7.7)
+    - PromiseKit/UIView (= 1.7.7)
+    - PromiseKit/UIViewController (= 1.7.7)
+    - PromiseKit/Until (= 1.7.7)
+    - PromiseKit/When (= 1.7.7)
+  - PromiseKit/CALayer (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/NSNotificationCenter (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/NSURLConnection (1.7.7):
+    - OMGHTTPURLRQ (~> 3.2)
+    - PromiseKit/Promise
+  - PromiseKit/Pause (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/Promise (1.7.7)
+  - PromiseKit/UIActionSheet (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/UIAlertView (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/UIView (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/UIViewController (1.7.7):
+    - PromiseKit/Promise
+  - PromiseKit/Until (1.7.7):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (1.7.7):
+    - PromiseKit/Promise
+  - TZImagePickerController (3.2.1)
 
 DEPENDENCIES:
-  - HomeUI (from `./UI`)
+  - MJRefresh (= 3.1.15.6)
+  - PromiseKit (= 1.7.7)
+  - TZImagePickerController
 
-EXTERNAL SOURCES:
-  HomeUI:
-    :path: "./UI"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MJRefresh
+    - OMGHTTPURLRQ
+    - PromiseKit
+    - TZImagePickerController
 
 SPEC CHECKSUMS:
-  HomeUI: e5dcf62f3340f62d680506cb65acb8be2935fb10
+  MJRefresh: 0efa19656679d70a0f47cbe76e56c2271fe53a97
+  OMGHTTPURLRQ: 9ac96bdf5c90a33f75836630729ea1adc312a9ed
+  PromiseKit: 9007df2f9e2ef725467084ab3880cf932ab935a4
+  TZImagePickerController: bf4c57b98d8707fce41ea6be872414a71c7a8c9d
 
-PODFILE CHECKSUM: 091d9b2104ff2a65e240892793ef4b08b76101d4
+PODFILE CHECKSUM: 930fa1cfe16f7db9b242660ac4fbe2bbfa1d435e
 
 COCOAPODS: 1.6.0.beta.2

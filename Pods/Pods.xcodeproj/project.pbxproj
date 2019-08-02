@@ -3,54 +3,312 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E73251E1C4EACE3747E4E8123EFB253 /* BBB.m in Sources */ = {isa = PBXBuildFile; fileRef = F771D56F39972405157A6E67A1A80F3D /* BBB.m */; };
-		69C6AA132F1B381B047B1D7948B6B6E6 /* HomeUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBB52973211ABD611DE098967C64E12 /* HomeUI-dummy.m */; };
-		6DE3E566B66C0B238F1B647BD9B39DAC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8736CC8B04E0FD4B30FB5489960F2DB2 /* ReplaceMe.m */; };
-		75C7609239EE8F2783B2DC521B8C5D0C /* Pods-Zujian-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF983695979E8149B10DE132CD35371C /* Pods-Zujian-dummy.m */; };
-		B9BF687985B65849291DBCE78BB0C51B /* BBB.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D1CE2D39D0F4FCEA39AE97AD3A8146E /* BBB.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		000BBEA50FF245B65F6441EE5CF67CC8 /* OMGHTTPURLRQ.h in Headers */ = {isa = PBXBuildFile; fileRef = AC6FB52D9061E78D1E288A9FA0C74ABD /* OMGHTTPURLRQ.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		036E797EDF9864F91ACDD4CB72E02E76 /* UIViewController+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BA97B05318CA4FCA13124A7F750CF5 /* UIViewController+PromiseKit.m */; };
+		04763426070EFC2081BE9E8C36B06E35 /* OMGHTTPURLRQ.m in Sources */ = {isa = PBXBuildFile; fileRef = AA167EB76A817746C79A19A271CB849C /* OMGHTTPURLRQ.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04C1B6DB497623E898FE3196FEBD42B9 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = BDA7A921F83C43D0646792A73414F7AD /* fwd.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		04EC641B672FA9D715BF067CE8A1041F /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D70CA5A6718A3A97F226D147999661C /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		05E7C87E97E219D43834C324447984E2 /* UIActionSheet+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D53D6DAD4969F8A4179D281B409EFDB4 /* UIActionSheet+PromiseKit.m */; };
+		05F44A11CBD14BDB51BC28C3022BF477 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = E25F299E615D421784B4C7A15FF49572 /* UIView+Layout.m */; };
+		0620F4A74E732CDE4D62913FE06375B8 /* CALayer+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A4BCD35D5856F25CFEEC5774DB911C89 /* CALayer+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		065AA84DEE8A6F45A10B8CCBA19A2236 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C7702C21BD28EBEF85DFA4F0815CA1 /* MJRefreshBackFooter.m */; };
+		066F236A5D2551CD2092EE097F42FB38 /* NSURLConnection+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8975DF2AD70AC1CA6936AE998F906C9B /* NSURLConnection+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		071598203E3CF36ECEE9A8F2D7246524 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 191C8DC12422E18A445006AB0163951C /* UIScrollView+MJRefresh.m */; };
+		090AF9FAF41682D41F64B1F41913A026 /* UIAlertView+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 10A4E97AD45D954D10851FBCBA06C937 /* UIAlertView+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		099025E33E13F8A4C1F2510592B8CBBD /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 087FC7DD77B267B701F39BA403F05A1F /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0F0D3277E9DC29CD151E7E1F260BF0EB /* TZImageRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D526E3F415287788739855FC243AF7E /* TZImageRequestOperation.m */; };
+		138DE9751AB03ED6F01289996CA87B65 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9F7D858074FBE83412E4DE08CFDE6D /* MJRefreshFooter.m */; };
+		13C9F69938755DA1ABC16A1C79BA5D42 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C497636B6BB11D2348F76B7EF233233F /* MJRefreshAutoNormalFooter.m */; };
+		1446A07E22C5AC32F999D3665D9A1B9D /* NSNotificationCenter+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 021CC7C1796DE38C1A5D289F53AC77A6 /* NSNotificationCenter+PromiseKit.m */; };
+		14BFAA4E1009F443878A196FC38A5952 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EE9BCD4CAF6BFBA6599ED8837FFBE2F /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1BC43D8D43B49D810670917B9B5990A9 /* TZImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE4A407251D35C5250DBF2460757802 /* TZImageManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1C37BC6904D04804B3D93CB3C74F86E2 /* TZPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE63870CB466D4246BC70D571C912F9 /* TZPhotoPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1DD2791D582A3C3D0D29B761A9BEE2A4 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D0DE659B464DD84CF04E6A6F63C10F /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2023954434BD422C61FB77CD65B85CA7 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A6094139EB5BBF8730F256F0DB87C59 /* MJRefreshBackGifFooter.m */; };
+		2166408B2BB5E63C16478CC8BA82CF0B /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 454D0760DAFA8774C22FF9D8271633FA /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22F101259F098AB30E03C3479A9C2586 /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 84541B782645627EB244266CEC5A5E62 /* MJRefreshGifHeader.m */; };
+		2CAC2FFD87AF647872A6B2E853895882 /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 565852A03FEC2EDDC0AB80AEF92F817B /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		307F9C6502228F3145B0327D2A6CED42 /* NSBundle+TZImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 420E9F1770E9BFBDD0C6C82187610968 /* NSBundle+TZImagePicker.m */; };
+		30CBCEF615DC5CCAD3BAE6FEC87E5869 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9662CF0A0347C1305AC024C2AE4DD761 /* NSBundle+MJRefresh.m */; };
+		3350165AE8A65538F3F2EA115944CBA3 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D1EDC40AA4089A7489E7D476B15D21FB /* TZAssetModel.m */; };
+		338ED19F91201FFB1D3AFEA01E954BB0 /* UIActionSheet+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C829CF5F9A05395BA690AAE84E583EA /* UIActionSheet+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		37BB1B66D117B02887E71C66E6084C9C /* TZLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D07A84BBDC2C8512BC35F095B6624CE3 /* TZLocationManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		39BF4D2B20DAF9BEC823C41C400BC264 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 67524AC2A4D9F3393B3B8C850DDA252C /* MJRefreshNormalHeader.m */; };
+		3CD7B7D5A410BC0D08B50EE870839C45 /* TZPhotoPickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE8F04044939AB725D85F4C077FB065 /* TZPhotoPickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CFC72D9FA104FB7B23BBC6D8680B420 /* NSURLConnection+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA33EAA197C43BE38B85DD183F3C8A /* NSURLConnection+PromiseKit.m */; };
+		3FA7E1D68DE60AC037D67EA72B6F09D8 /* TZImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9097205A3A5CE479FE7D581DFF17A2 /* TZImagePickerController-dummy.m */; };
+		41B1D2AB4A1A8F8A068C9039B13692D0 /* UIView+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 99784112059C0BE0D484FEFDF7E652CC /* UIView+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4932D8EC928F5974515D6513B51F6BEC /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 67BC4E88C3818168A562F5A58042C519 /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51B26557BE611543E031980E638B01EA /* Promise.h in Headers */ = {isa = PBXBuildFile; fileRef = 950A7D8EAEF8245CE3281380DE94B04D /* Promise.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5335FA318C1C9321A3A539ACED1E2508 /* OMGFormURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAFBFE54FA95543C2A47CB4122B867F /* OMGFormURLEncode.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		541A5C5747AB7356CAEA4489B0EAA7DD /* TZAssetCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0710863760EBCC59927B654B8AA1AB7A /* TZAssetCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		553543F1C5C8C74E63C8579F78EF27B9 /* UIView+Layout.h in Headers */ = {isa = PBXBuildFile; fileRef = A3EA66457BEDBA37CC436E707D24C8D3 /* UIView+Layout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55DF52E4E16E695BC4A2B364B97E2A29 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = ED29FB278D3696A5E256420056090F7C /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57172C38605F7EA414A730D95DC14C06 /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1F0443C436DEC1C3573C31DC503961 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		58B4C37211C5D3E154572832102EC910 /* TZLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A373E84672C6CCAFBA86089160FDDA87 /* TZLocationManager.m */; };
+		58D0EC42766DE92812B4292D9EF08A6C /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B703592E89F087C56D2605798CF39732 /* MJRefreshComponent.m */; };
+		5E06B89FE9CCD53CDDB1F32F69A61CBF /* TZImageCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BADC1C48B0E7BD55F2C0B1F2B7C2FAE /* TZImageCropManager.m */; };
+		6070B860C088B5E0F85617492685BE8D /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEAF8866F713CE5070FD81A751FA211 /* PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61817C570C4561E7413140BA7843D75D /* NSNotificationCenter+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 081F17D62EE5640E246A55ED1CD5D3DB /* NSNotificationCenter+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62C84DC352698A5BFB6E863A1CD13D4F /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F24095EECEDA64A9A85EDDB2E402352 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		63934D6FC6CD9649C2C4D4339AE3AD26 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 16789CE78CE987840778B3F7A971F2CA /* MJRefreshHeader.m */; };
+		63F997A39F33E9B0DC0C5FE652B34C6D /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 73082195571427FF356D0CB8E96F107F /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66E62F7811DA0FFB81DE95365FC19926 /* PMKPromise+Until.m in Sources */ = {isa = PBXBuildFile; fileRef = 41725FA57F4D4146369298BF637D332D /* PMKPromise+Until.m */; };
+		676BD5F3634B422C479DAE9517F1EF11 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D5F0788F9F7468560A0AA892B50A21DF /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		68CBBCC20E1C7E37AAAAC044C2A06802 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 47DE54D01451374127EE45953F948517 /* MJRefreshBackNormalFooter.m */; };
+		69714CBF6C811BB7995C626F6B27C5A1 /* NSBundle+TZImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC77E9FA3684E210E75BFFCF87491AB /* NSBundle+TZImagePicker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6C0AA839EB1D5A269102E8747DDF7FF5 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF12ECF11536AE277CCB526C2BDB0B1 /* MJRefreshStateHeader.m */; };
+		6CF3A474DB79FD4553FC9928906055A0 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 989BBD326BF2FED3BD91690F73EB0FE9 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		704754F7CD3042AEBCCD4E7F47CFFE90 /* UIAlertView+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E3E631F0D4B027B1BBCFFF0E2567D4B /* UIAlertView+PromiseKit.m */; };
+		7183DD6C6D49F86D251A767694F5B752 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E81B79FC54D8B5D540781A323762F1 /* MJRefreshAutoFooter.m */; };
+		7239C9990465C1C3608A5F40458F23A1 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = D88C26D67461F32F537CB658C366DE96 /* OMGUserAgent.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		74F40B5D2A062752DAB6C19E961C4D81 /* TZVideoPlayerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 243FF95ED658E1B1C563A6EB00F23BEA /* TZVideoPlayerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		75BD5DC917B7E87E779A4B3E0C3B1703 /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB348F0A1A234E90D249ABC603ED182 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		77A1D9E6E9C33F9839905E18039C2FB9 /* UIViewController+PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEB6264DA1648873823F4399BC5B4D4 /* UIViewController+PromiseKit.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7814354B706169E19BD0A6935BBD0030 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 720A5A05F83095114320759DAE5AF043 /* TZImagePickerController.m */; };
+		7C5E68FD41D140F4F0CBCB353F24A627 /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 41B765EEDFD0638BBFBFA782F5AE6D9C /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7DD2FE171AEA73FA2EC9631C1F4299EC /* TZImageRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 109F162A0222DEEA8C25A7FFFAA2D359 /* TZImageRequestOperation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7FC33B8661EAEE3CFF93D71FCA0AC3CC /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 17EAE6DCCB3120A63C5BBE30B9F17401 /* UIScrollView+MJExtension.m */; };
+		82DF6656BD2859D6669880EC65DD66C8 /* Promise+Pause.h in Headers */ = {isa = PBXBuildFile; fileRef = 101BC31EFB1637402E9F9E09F892582B /* Promise+Pause.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		84039334DC0F5C863D5D34C458A8FB18 /* UIView+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EC5A75E8394A4BA575AF482357F5776 /* UIView+PromiseKit.m */; };
+		8D08BBCA15EB50AEFF041EF498AFC50D /* PMKPromise+When.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AAD88D38A152DE2CBBC6886690F92E /* PMKPromise+When.m */; };
+		96CCE7410A743FFC77B9ED2A15E7FAC5 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C09EBA4B00E133250483CACA9DA3C377 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A01D27B3BB2058E5698B55AB110173CA /* PMKPromise+Pause.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F8DCAB3A7D30E95C5D2666AD5DEF65F /* PMKPromise+Pause.m */; };
+		A5F8E1E9791E453E2A236787DE64BB3D /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E11617A310096F7DA69001C582A0AA /* TZImageManager.m */; };
+		A63D70D63EC970552A5C58A7CABFD8DB /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C207E16CA2BD60F20B86B09783C87D8 /* MJRefresh-dummy.m */; };
+		A9A30DCED5E75FFC1D8ACADFAAC88E6B /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 715A3F96F71C77C9754FBE7148ED83BC /* TZPhotoPreviewController.m */; };
+		AA0608C54CD0C71B3269F3503F7D2E81 /* OMGUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9C6E80B2013FA72E9DE9227E21AE09 /* OMGUserAgent.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ACD874B107220CB80B17440643D6C859 /* TZGifPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9137E9C8EF4023E3DF2F5451BBF2C4F1 /* TZGifPhotoPreviewController.m */; };
+		B332E69F9C565A8752E59D098C5CBDB5 /* TZProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFFA26826AD89E6A27F3E178B2117FF5 /* TZProgressView.m */; };
+		B4353639C2234A463517266954FA125D /* TZImageCropManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4351FBFA7C19FE0EE933F2EB0833B262 /* TZImageCropManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B464061659F70C4C46D5C6BF8ED9BBED /* TZPhotoPreviewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AC64D6F51B47F6711C4A3AA79567A9 /* TZPhotoPreviewCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7160FF276863D3E4272D4B2EF8B8C4A /* TZGifPhotoPreviewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1838C55A86FFB4051CDC34DDAA64BE80 /* TZGifPhotoPreviewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BB8E699C275FBC6C8224F30BB3619033 /* OMGHTTPURLRQ-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F33C69BA43934D73C48A0DE79563D46F /* OMGHTTPURLRQ-dummy.m */; };
+		BF36CBE24530B091F42E15AD1A73DB36 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F34C5D35D6BBFAAA22B82F1458978A4 /* MJRefreshConst.m */; };
+		C2699D97E08F9EE2C7A15DC3960AD640 /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 358C14B7F32D98C809B058072844AC03 /* MJRefresh.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C541E7398F05864904FC70257C042BD3 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3145D005B29FAA2B7ECB7EAB8FB562CE /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C5C4C0DCE585B3E142E6A0D36B2A7772 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F5434308EF5B045F683F5A6A0DB5DA04 /* MJRefreshAutoGifFooter.m */; };
+		C6531579B3E5B9C61FC7461AF55F8866 /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F18BA0A899B77A0A9BB061E1C8404DDE /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C74CDBD115AC53CEA1E5132F429429F8 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF57F5DCD583C8478706050818A1DAE /* PromiseKit-dummy.m */; };
+		C90CA305996FEF99DA83F11DCFA5AACA /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65512B44F8E9D762545905A2A15AA7BB /* TZVideoPlayerController.m */; };
+		C9BDFBF801035C0A1F07DC73104BFD18 /* Promise+Until.h in Headers */ = {isa = PBXBuildFile; fileRef = E512FB124F14A577F040026A9A6F6B8C /* Promise+Until.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C9D82DE431CD0167462374FE9486B6F2 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A4678B3379860568E99DFC7E4946B /* UIView+MJExtension.m */; };
+		CB3864E0708F2A46EA0B01127BC4324F /* TZProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F36B29E0D191BFBCED55AFB96063F021 /* TZProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D36B82024CFB4BA17408B3336911282E /* TZImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8628EF83974D1137B3AA81D482A227D4 /* TZImagePickerController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D698CE75CF828AEDB38D38B0B258208F /* Promise+When.h in Headers */ = {isa = PBXBuildFile; fileRef = 33A98608860D0C730360A8F3307F042C /* Promise+When.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D6F4C2D1B97FE1902C74FF7506906A70 /* TZAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B08923DAEB9327AF4DD8B7B3B81A47E /* TZAssetModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DC939B3E913A9ACD5531CB232007CD88 /* PMKPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 575F1535114887033E6822CB4080AA72 /* PMKPromise.m */; };
+		DFC33092DDA06799FB9A91254D268FCE /* CALayer+PromiseKit.m in Sources */ = {isa = PBXBuildFile; fileRef = B552D53BFC729DB893C536B912D3AFBC /* CALayer+PromiseKit.m */; };
+		E09BD062243C9E4C534AD77B653A0899 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 08B85241D616440EB4C14CCC25A8D5D4 /* TZPhotoPreviewCell.m */; };
+		E826AB541DCB8E61AC3BAC4DF34E4533 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = F1B9DC4ADA7BEE685826ADD2EE76AC26 /* MJRefreshBackStateFooter.m */; };
+		EC745E955EB51397245DF970B18C3EC4 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4D8CCFD73148878F0EF9B7DBBD8BBB /* TZPhotoPickerController.m */; };
+		ED15FF41F3BC62852663C605419B582B /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = FF56F193BE36D7FE2F765B4CDBA4E83E /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF9319BC2A7A1EF0C02481B0424DC9DF /* Pods-YYTextKitDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D108850ADD5E49671F2C7CE55505F9B /* Pods-YYTextKitDemo-dummy.m */; };
+		F4B7FF68A3462EA670331A621F0BAA5C /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DED26EFDBB70D98AB63235A505C4E66E /* TZAssetCell.m */; };
+		F889BF8EF2B27A1A5E610814B15E0CC2 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7881EE84D197278F56DFD95F55C167 /* MJRefreshAutoStateFooter.m */; };
+		FCA4E7806A8D26A2DFCF2B388CBF3EFD /* OMGFormURLEncode.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CFC667307479A289DB17F47D08443D6 /* OMGFormURLEncode.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11F75E1210CD4BB37F8F46BFD90D1320 /* PBXContainerItemProxy */ = {
+		2135C1217AC3B2E158B25E4AE8D7F276 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C2C466CFDEEF77EC543F969EE05EAE8B;
-			remoteInfo = HomeUI;
+			remoteGlobalIDString = C1107A1FF4356B45B5A3EFA6189AF952;
+			remoteInfo = OMGHTTPURLRQ;
+		};
+		A2CB2168CF8675D920EDF139C4C5D9CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F846F38BE8EECD1244DC2F80D9424684;
+			remoteInfo = TZImagePickerController;
+		};
+		B05BC93F0557C877E92151223FAB1F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B454890D49655CA4596D53934D716E;
+			remoteInfo = PromiseKit;
+		};
+		B80B89812CCD930D5ABA647463D63AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1120A19889CDBCBB15E09894FE37AC74;
+			remoteInfo = MJRefresh;
+		};
+		BF118737F60C2FA1E953572367780DEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1107A1FF4356B45B5A3EFA6189AF952;
+			remoteInfo = OMGHTTPURLRQ;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		042111C198CFBB4EEA4D9D5E624BEB43 /* HomeUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HomeUI.xcconfig; sourceTree = "<group>"; };
-		1DB6377C65B81E299F71FB50F47DA782 /* libPods-Zujian.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Zujian.a"; path = "libPods-Zujian.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DBB52973211ABD611DE098967C64E12 /* HomeUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HomeUI-dummy.m"; sourceTree = "<group>"; };
-		2B8A0D0F07319CDBA5510229E2A2D2E5 /* Pods-Zujian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zujian.release.xcconfig"; sourceTree = "<group>"; };
-		333EF65A1D44101F91C1225A621574EA /* Pods-Zujian-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zujian-acknowledgements.markdown"; sourceTree = "<group>"; };
-		34301EE5DE73295F60FFB2BA74B1E4AA /* Pods-Zujian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zujian.debug.xcconfig"; sourceTree = "<group>"; };
-		7D1CE2D39D0F4FCEA39AE97AD3A8146E /* BBB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BBB.h; path = HomeUI/Classes/BBB.h; sourceTree = "<group>"; };
-		7D435223A3FFF46D1BAEBCAE44995991 /* libHomeUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libHomeUI.a; path = libHomeUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8736CC8B04E0FD4B30FB5489960F2DB2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HomeUI/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		A3E6E638EDB7A34470A304E6FAAD9ABC /* HomeUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HomeUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADFEA99939608BE78C87DA9BC006DA18 /* Pods-Zujian-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zujian-acknowledgements.plist"; sourceTree = "<group>"; };
-		B02DE12B1031B6C234758A296C96A139 /* HomeUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HomeUI-prefix.pch"; sourceTree = "<group>"; };
+		021CC7C1796DE38C1A5D289F53AC77A6 /* NSNotificationCenter+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+PromiseKit.m"; path = "Sources/NSNotificationCenter+PromiseKit.m"; sourceTree = "<group>"; };
+		0710863760EBCC59927B654B8AA1AB7A /* TZAssetCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetCell.h; path = TZImagePickerController/TZImagePickerController/TZAssetCell.h; sourceTree = "<group>"; };
+		081F17D62EE5640E246A55ED1CD5D3DB /* NSNotificationCenter+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+PromiseKit.h"; path = "Sources/NSNotificationCenter+PromiseKit.h"; sourceTree = "<group>"; };
+		087FC7DD77B267B701F39BA403F05A1F /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		08B85241D616440EB4C14CCC25A8D5D4 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewCell.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		0BE63870CB466D4246BC70D571C912F9 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		0D108850ADD5E49671F2C7CE55505F9B /* Pods-YYTextKitDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YYTextKitDemo-dummy.m"; sourceTree = "<group>"; };
+		0E3E631F0D4B027B1BBCFFF0E2567D4B /* UIAlertView+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+PromiseKit.m"; path = "Sources/UIAlertView+PromiseKit.m"; sourceTree = "<group>"; };
+		101BC31EFB1637402E9F9E09F892582B /* Promise+Pause.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Promise+Pause.h"; path = "Sources/PromiseKit/Promise+Pause.h"; sourceTree = "<group>"; };
+		109F162A0222DEEA8C25A7FFFAA2D359 /* TZImageRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageRequestOperation.h; path = TZImagePickerController/TZImagePickerController/TZImageRequestOperation.h; sourceTree = "<group>"; };
+		10A4E97AD45D954D10851FBCBA06C937 /* UIAlertView+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+PromiseKit.h"; path = "Sources/UIAlertView+PromiseKit.h"; sourceTree = "<group>"; };
+		10AC64D6F51B47F6711C4A3AA79567A9 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPreviewCell.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		125F814A59A686450E8513546CDB5243 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = TZImagePickerController.bundle; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle; sourceTree = "<group>"; };
+		16789CE78CE987840778B3F7A971F2CA /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefresh/Base/MJRefreshHeader.m; sourceTree = "<group>"; };
+		17EAE6DCCB3120A63C5BBE30B9F17401 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		1838C55A86FFB4051CDC34DDAA64BE80 /* TZGifPhotoPreviewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZGifPhotoPreviewController.h; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.h; sourceTree = "<group>"; };
+		191C8DC12422E18A445006AB0163951C /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		1A4D8CCFD73148878F0EF9B7DBBD8BBB /* TZPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPickerController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.m; sourceTree = "<group>"; };
+		1DEE31B130706D834B23490F5F11B420 /* libPods-YYTextKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-YYTextKitDemo.a"; path = "libPods-YYTextKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		243FF95ED658E1B1C563A6EB00F23BEA /* TZVideoPlayerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZVideoPlayerController.h; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.h; sourceTree = "<group>"; };
+		28AAD88D38A152DE2CBBC6886690F92E /* PMKPromise+When.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PMKPromise+When.m"; path = "Sources/PMKPromise+When.m"; sourceTree = "<group>"; };
+		2A6094139EB5BBF8730F256F0DB87C59 /* MJRefreshBackGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackGifFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.m; sourceTree = "<group>"; };
+		2B7881EE84D197278F56DFD95F55C167 /* MJRefreshAutoStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoStateFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.m; sourceTree = "<group>"; };
+		2B9097205A3A5CE479FE7D581DFF17A2 /* TZImagePickerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TZImagePickerController-dummy.m"; sourceTree = "<group>"; };
+		2C829CF5F9A05395BA690AAE84E583EA /* UIActionSheet+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActionSheet+PromiseKit.h"; path = "Sources/UIActionSheet+PromiseKit.h"; sourceTree = "<group>"; };
+		2D70CA5A6718A3A97F226D147999661C /* MJRefreshBackStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackStateFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.h; sourceTree = "<group>"; };
+		2E9C6E80B2013FA72E9DE9227E21AE09 /* OMGUserAgent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGUserAgent.h; path = Sources/OMGUserAgent.h; sourceTree = "<group>"; };
+		2F8DCAB3A7D30E95C5D2666AD5DEF65F /* PMKPromise+Pause.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PMKPromise+Pause.m"; path = "Sources/PMKPromise+Pause.m"; sourceTree = "<group>"; };
+		3145D005B29FAA2B7ECB7EAB8FB562CE /* MJRefreshNormalHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshNormalHeader.h; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.h; sourceTree = "<group>"; };
+		333153365B46171E782F65EBC79BB880 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		33A98608860D0C730360A8F3307F042C /* Promise+When.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Promise+When.h"; path = "Sources/PromiseKit/Promise+When.h"; sourceTree = "<group>"; };
+		356BB8CBD0813C8E2D7C0AFE9D4FA321 /* Pods-YYTextKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYTextKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		358C14B7F32D98C809B058072844AC03 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		3A1F0443C436DEC1C3573C31DC503961 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoFooter.h; path = MJRefresh/Base/MJRefreshAutoFooter.h; sourceTree = "<group>"; };
+		41725FA57F4D4146369298BF637D332D /* PMKPromise+Until.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PMKPromise+Until.m"; path = "Sources/PMKPromise+Until.m"; sourceTree = "<group>"; };
+		41B765EEDFD0638BBFBFA782F5AE6D9C /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		420E9F1770E9BFBDD0C6C82187610968 /* NSBundle+TZImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+TZImagePicker.m"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.m"; sourceTree = "<group>"; };
+		4351FBFA7C19FE0EE933F2EB0833B262 /* TZImageCropManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageCropManager.h; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.h; sourceTree = "<group>"; };
+		44BA97B05318CA4FCA13124A7F750CF5 /* UIViewController+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+PromiseKit.m"; path = "Sources/UIViewController+PromiseKit.m"; sourceTree = "<group>"; };
+		454D0760DAFA8774C22FF9D8271633FA /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		47DE54D01451374127EE45953F948517 /* MJRefreshBackNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackNormalFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.m; sourceTree = "<group>"; };
+		4EE9BCD4CAF6BFBA6599ED8837FFBE2F /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefresh/Base/MJRefreshHeader.h; sourceTree = "<group>"; };
+		535671C3C11719459B0F2FCC871C64CB /* libOMGHTTPURLRQ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libOMGHTTPURLRQ.a; path = libOMGHTTPURLRQ.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		565852A03FEC2EDDC0AB80AEF92F817B /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefresh/Base/MJRefreshComponent.h; sourceTree = "<group>"; };
+		575F1535114887033E6822CB4080AA72 /* PMKPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PMKPromise.m; path = Sources/PMKPromise.m; sourceTree = "<group>"; };
+		582A4678B3379860568E99DFC7E4946B /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		591607274191A97AC9CC77C9DF03A413 /* Pods-YYTextKitDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YYTextKitDemo-resources.sh"; sourceTree = "<group>"; };
+		5C207E16CA2BD60F20B86B09783C87D8 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		5C9AD20D9ADE49DCAF0C5669288A5B87 /* libPromiseKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libPromiseKit.a; path = libPromiseKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFC667307479A289DB17F47D08443D6 /* OMGFormURLEncode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGFormURLEncode.h; path = Sources/OMGFormURLEncode.h; sourceTree = "<group>"; };
+		65512B44F8E9D762545905A2A15AA7BB /* TZVideoPlayerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZVideoPlayerController.m; path = TZImagePickerController/TZImagePickerController/TZVideoPlayerController.m; sourceTree = "<group>"; };
+		65E81B79FC54D8B5D540781A323762F1 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoFooter.m; path = MJRefresh/Base/MJRefreshAutoFooter.m; sourceTree = "<group>"; };
+		67524AC2A4D9F3393B3B8C850DDA252C /* MJRefreshNormalHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshNormalHeader.m; path = MJRefresh/Custom/Header/MJRefreshNormalHeader.m; sourceTree = "<group>"; };
+		67BC4E88C3818168A562F5A58042C519 /* MJRefreshAutoGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoGifFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.h; sourceTree = "<group>"; };
+		67DC2F399DB535009232B954BE5CF6B9 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		6B08923DAEB9327AF4DD8B7B3B81A47E /* TZAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZAssetModel.h; path = TZImagePickerController/TZImagePickerController/TZAssetModel.h; sourceTree = "<group>"; };
+		6D526E3F415287788739855FC243AF7E /* TZImageRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageRequestOperation.m; path = TZImagePickerController/TZImagePickerController/TZImageRequestOperation.m; sourceTree = "<group>"; };
+		6EC5A75E8394A4BA575AF482357F5776 /* UIView+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+PromiseKit.m"; path = "Sources/UIView+PromiseKit.m"; sourceTree = "<group>"; };
+		715A3F96F71C77C9754FBE7148ED83BC /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		720A5A05F83095114320759DAE5AF043 /* TZImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImagePickerController.m; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.m; sourceTree = "<group>"; };
+		73082195571427FF356D0CB8E96F107F /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefresh/Custom/Header/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		74BBBD9C589A47A90D31DB762AEA4D5C /* Pods-YYTextKitDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YYTextKitDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		761C7372FEE48481DAC7ADC76AAC8061 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		79D0DE659B464DD84CF04E6A6F63C10F /* NSBundle+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+MJRefresh.h"; path = "MJRefresh/NSBundle+MJRefresh.h"; sourceTree = "<group>"; };
+		7EAFBFE54FA95543C2A47CB4122B867F /* OMGFormURLEncode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGFormURLEncode.m; path = Sources/OMGFormURLEncode.m; sourceTree = "<group>"; };
+		7F24095EECEDA64A9A85EDDB2E402352 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefresh/Base/MJRefreshFooter.h; sourceTree = "<group>"; };
+		84541B782645627EB244266CEC5A5E62 /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefresh/Custom/Header/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		8628EF83974D1137B3AA81D482A227D4 /* TZImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImagePickerController.h; path = TZImagePickerController/TZImagePickerController/TZImagePickerController.h; sourceTree = "<group>"; };
+		8975DF2AD70AC1CA6936AE998F906C9B /* NSURLConnection+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLConnection+PromiseKit.h"; path = "Sources/NSURLConnection+PromiseKit.h"; sourceTree = "<group>"; };
+		8BADC1C48B0E7BD55F2C0B1F2B7C2FAE /* TZImageCropManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageCropManager.m; path = TZImagePickerController/TZImagePickerController/TZImageCropManager.m; sourceTree = "<group>"; };
+		8BF12ECF11536AE277CCB526C2BDB0B1 /* MJRefreshStateHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshStateHeader.m; path = MJRefresh/Custom/Header/MJRefreshStateHeader.m; sourceTree = "<group>"; };
+		8E3AA2EFBBF28ED079F26B8FF042BD41 /* TZImagePickerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TZImagePickerController.xcconfig; sourceTree = "<group>"; };
+		8EEB6264DA1648873823F4399BC5B4D4 /* UIViewController+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+PromiseKit.h"; path = "Sources/UIViewController+PromiseKit.h"; sourceTree = "<group>"; };
+		8F34C5D35D6BBFAAA22B82F1458978A4 /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		90529B8ED14626E2F807FF0235580C07 /* OMGHTTPURLRQ.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OMGHTTPURLRQ.xcconfig; sourceTree = "<group>"; };
+		9137E9C8EF4023E3DF2F5451BBF2C4F1 /* TZGifPhotoPreviewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZGifPhotoPreviewController.m; path = TZImagePickerController/TZImagePickerController/TZGifPhotoPreviewController.m; sourceTree = "<group>"; };
+		93EA33EAA197C43BE38B85DD183F3C8A /* NSURLConnection+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLConnection+PromiseKit.m"; path = "Sources/NSURLConnection+PromiseKit.m"; sourceTree = "<group>"; };
+		950A7D8EAEF8245CE3281380DE94B04D /* Promise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Promise.h; path = Sources/PromiseKit/Promise.h; sourceTree = "<group>"; };
+		9662CF0A0347C1305AC024C2AE4DD761 /* NSBundle+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSBundle+MJRefresh.m"; path = "MJRefresh/NSBundle+MJRefresh.m"; sourceTree = "<group>"; };
+		989BBD326BF2FED3BD91690F73EB0FE9 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		99784112059C0BE0D484FEFDF7E652CC /* UIView+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+PromiseKit.h"; path = "Sources/UIView+PromiseKit.h"; sourceTree = "<group>"; };
+		9CE38E47F745FDCF1B671DB51074C63F /* Pods-YYTextKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YYTextKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9DB348F0A1A234E90D249ABC603ED182 /* MJRefreshAutoNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoNormalFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.h; sourceTree = "<group>"; };
+		A373E84672C6CCAFBA86089160FDDA87 /* TZLocationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZLocationManager.m; path = TZImagePickerController/TZImagePickerController/TZLocationManager.m; sourceTree = "<group>"; };
+		A3EA66457BEDBA37CC436E707D24C8D3 /* UIView+Layout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Layout.h"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.h"; sourceTree = "<group>"; };
+		A4BCD35D5856F25CFEEC5774DB911C89 /* CALayer+PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PromiseKit.h"; path = "Sources/CALayer+PromiseKit.h"; sourceTree = "<group>"; };
+		AA167EB76A817746C79A19A271CB849C /* OMGHTTPURLRQ.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGHTTPURLRQ.m; path = Sources/OMGHTTPURLRQ.m; sourceTree = "<group>"; };
+		AC5EB66ABFD97EE5A1D8E377EDA1D063 /* libTZImagePickerController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTZImagePickerController.a; path = libTZImagePickerController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC6FB52D9061E78D1E288A9FA0C74ABD /* OMGHTTPURLRQ.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OMGHTTPURLRQ.h; path = Sources/OMGHTTPURLRQ.h; sourceTree = "<group>"; };
 		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		CF983695979E8149B10DE132CD35371C /* Pods-Zujian-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zujian-dummy.m"; sourceTree = "<group>"; };
-		F771D56F39972405157A6E67A1A80F3D /* BBB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BBB.m; path = HomeUI/Classes/BBB.m; sourceTree = "<group>"; };
+		B552D53BFC729DB893C536B912D3AFBC /* CALayer+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PromiseKit.m"; path = "Sources/CALayer+PromiseKit.m"; sourceTree = "<group>"; };
+		B6E11617A310096F7DA69001C582A0AA /* TZImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZImageManager.m; path = TZImagePickerController/TZImagePickerController/TZImageManager.m; sourceTree = "<group>"; };
+		B703592E89F087C56D2605798CF39732 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefresh/Base/MJRefreshComponent.m; sourceTree = "<group>"; };
+		B7C7702C21BD28EBEF85DFA4F0815CA1 /* MJRefreshBackFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackFooter.m; path = MJRefresh/Base/MJRefreshBackFooter.m; sourceTree = "<group>"; };
+		B807EA095E3A4A61F7EAE16291177D1D /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMJRefresh.a; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDA7A921F83C43D0646792A73414F7AD /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/PromiseKit/fwd.h; sourceTree = "<group>"; };
+		BE9F7D858074FBE83412E4DE08CFDE6D /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefresh/Base/MJRefreshFooter.m; sourceTree = "<group>"; };
+		C09EBA4B00E133250483CACA9DA3C377 /* MJRefreshBackNormalFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackNormalFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackNormalFooter.h; sourceTree = "<group>"; };
+		C497636B6BB11D2348F76B7EF233233F /* MJRefreshAutoNormalFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoNormalFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoNormalFooter.m; sourceTree = "<group>"; };
+		CAEAF8866F713CE5070FD81A751FA211 /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		CFFA26826AD89E6A27F3E178B2117FF5 /* TZProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZProgressView.m; path = TZImagePickerController/TZImagePickerController/TZProgressView.m; sourceTree = "<group>"; };
+		D07A84BBDC2C8512BC35F095B6624CE3 /* TZLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZLocationManager.h; path = TZImagePickerController/TZImagePickerController/TZLocationManager.h; sourceTree = "<group>"; };
+		D1EDC40AA4089A7489E7D476B15D21FB /* TZAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetModel.m; path = TZImagePickerController/TZImagePickerController/TZAssetModel.m; sourceTree = "<group>"; };
+		D3CF9DFDBD81C4E05E71D6C06370426B /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		D53D6DAD4969F8A4179D281B409EFDB4 /* UIActionSheet+PromiseKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActionSheet+PromiseKit.m"; path = "Sources/UIActionSheet+PromiseKit.m"; sourceTree = "<group>"; };
+		D5F0788F9F7468560A0AA892B50A21DF /* MJRefreshAutoStateFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshAutoStateFooter.h; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoStateFooter.h; sourceTree = "<group>"; };
+		D65B6BD967A1EF0A259657154A376BA3 /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
+		D88C26D67461F32F537CB658C366DE96 /* OMGUserAgent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OMGUserAgent.m; path = Sources/OMGUserAgent.m; sourceTree = "<group>"; };
+		DBF57F5DCD583C8478706050818A1DAE /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		DED26EFDBB70D98AB63235A505C4E66E /* TZAssetCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TZAssetCell.m; path = TZImagePickerController/TZImagePickerController/TZAssetCell.m; sourceTree = "<group>"; };
+		E0CE7AD727E96F16436148B888D1C164 /* TZImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TZImagePickerController-prefix.pch"; sourceTree = "<group>"; };
+		E25F299E615D421784B4C7A15FF49572 /* UIView+Layout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Layout.m"; path = "TZImagePickerController/TZImagePickerController/UIView+Layout.m"; sourceTree = "<group>"; };
+		E512FB124F14A577F040026A9A6F6B8C /* Promise+Until.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Promise+Until.h"; path = "Sources/PromiseKit/Promise+Until.h"; sourceTree = "<group>"; };
+		ED29FB278D3696A5E256420056090F7C /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackFooter.h; path = MJRefresh/Base/MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		F18BA0A899B77A0A9BB061E1C8404DDE /* MJRefreshStateHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshStateHeader.h; path = MJRefresh/Custom/Header/MJRefreshStateHeader.h; sourceTree = "<group>"; };
+		F1B9DC4ADA7BEE685826ADD2EE76AC26 /* MJRefreshBackStateFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshBackStateFooter.m; path = MJRefresh/Custom/Footer/Back/MJRefreshBackStateFooter.m; sourceTree = "<group>"; };
+		F2A6F203D41CBCF1495AFC8018C8332B /* Pods-YYTextKitDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YYTextKitDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F33C69BA43934D73C48A0DE79563D46F /* OMGHTTPURLRQ-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OMGHTTPURLRQ-dummy.m"; sourceTree = "<group>"; };
+		F36B29E0D191BFBCED55AFB96063F021 /* TZProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZProgressView.h; path = TZImagePickerController/TZImagePickerController/TZProgressView.h; sourceTree = "<group>"; };
+		F5434308EF5B045F683F5A6A0DB5DA04 /* MJRefreshAutoGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshAutoGifFooter.m; path = MJRefresh/Custom/Footer/Auto/MJRefreshAutoGifFooter.m; sourceTree = "<group>"; };
+		F79C8B9D65965235AFB47AFA2B473BD0 /* OMGHTTPURLRQ-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OMGHTTPURLRQ-prefix.pch"; sourceTree = "<group>"; };
+		FAE4A407251D35C5250DBF2460757802 /* TZImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZImageManager.h; path = TZImagePickerController/TZImagePickerController/TZImageManager.h; sourceTree = "<group>"; };
+		FBE8F04044939AB725D85F4C077FB065 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TZPhotoPickerController.h; path = TZImagePickerController/TZImagePickerController/TZPhotoPickerController.h; sourceTree = "<group>"; };
+		FEC77E9FA3684E210E75BFFCF87491AB /* NSBundle+TZImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSBundle+TZImagePicker.h"; path = "TZImagePickerController/TZImagePickerController/NSBundle+TZImagePicker.h"; sourceTree = "<group>"; };
+		FF56F193BE36D7FE2F765B4CDBA4E83E /* MJRefreshBackGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshBackGifFooter.h; path = MJRefresh/Custom/Footer/Back/MJRefreshBackGifFooter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0005AB10ADF0E7538AD144F8066653CA /* Frameworks */ = {
+		5235B06263EFC7799CE08036D9F46179 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B44793EB10889C57E99A39EC0E02EC17 /* Frameworks */ = {
+		941875CF81D90D635189ACA9F07970E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B38B1D1A47A7D726C0E1D5DBDF4455C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A418A8FE3F79BE706B207876260CDC53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D15E1539983AEB38D87D03DE63D27558 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,15 +318,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03FF68A111E61EE720A8F5E4E1DD9A39 /* Support Files */ = {
+		06CDB2A35FA5D800371E098F6E90F66E /* TZImagePickerController */ = {
 			isa = PBXGroup;
 			children = (
-				042111C198CFBB4EEA4D9D5E624BEB43 /* HomeUI.xcconfig */,
-				1DBB52973211ABD611DE098967C64E12 /* HomeUI-dummy.m */,
-				B02DE12B1031B6C234758A296C96A139 /* HomeUI-prefix.pch */,
+				FEC77E9FA3684E210E75BFFCF87491AB /* NSBundle+TZImagePicker.h */,
+				420E9F1770E9BFBDD0C6C82187610968 /* NSBundle+TZImagePicker.m */,
+				0710863760EBCC59927B654B8AA1AB7A /* TZAssetCell.h */,
+				DED26EFDBB70D98AB63235A505C4E66E /* TZAssetCell.m */,
+				6B08923DAEB9327AF4DD8B7B3B81A47E /* TZAssetModel.h */,
+				D1EDC40AA4089A7489E7D476B15D21FB /* TZAssetModel.m */,
+				1838C55A86FFB4051CDC34DDAA64BE80 /* TZGifPhotoPreviewController.h */,
+				9137E9C8EF4023E3DF2F5451BBF2C4F1 /* TZGifPhotoPreviewController.m */,
+				4351FBFA7C19FE0EE933F2EB0833B262 /* TZImageCropManager.h */,
+				8BADC1C48B0E7BD55F2C0B1F2B7C2FAE /* TZImageCropManager.m */,
+				FAE4A407251D35C5250DBF2460757802 /* TZImageManager.h */,
+				B6E11617A310096F7DA69001C582A0AA /* TZImageManager.m */,
+				8628EF83974D1137B3AA81D482A227D4 /* TZImagePickerController.h */,
+				720A5A05F83095114320759DAE5AF043 /* TZImagePickerController.m */,
+				109F162A0222DEEA8C25A7FFFAA2D359 /* TZImageRequestOperation.h */,
+				6D526E3F415287788739855FC243AF7E /* TZImageRequestOperation.m */,
+				D07A84BBDC2C8512BC35F095B6624CE3 /* TZLocationManager.h */,
+				A373E84672C6CCAFBA86089160FDDA87 /* TZLocationManager.m */,
+				FBE8F04044939AB725D85F4C077FB065 /* TZPhotoPickerController.h */,
+				1A4D8CCFD73148878F0EF9B7DBBD8BBB /* TZPhotoPickerController.m */,
+				10AC64D6F51B47F6711C4A3AA79567A9 /* TZPhotoPreviewCell.h */,
+				08B85241D616440EB4C14CCC25A8D5D4 /* TZPhotoPreviewCell.m */,
+				0BE63870CB466D4246BC70D571C912F9 /* TZPhotoPreviewController.h */,
+				715A3F96F71C77C9754FBE7148ED83BC /* TZPhotoPreviewController.m */,
+				F36B29E0D191BFBCED55AFB96063F021 /* TZProgressView.h */,
+				CFFA26826AD89E6A27F3E178B2117FF5 /* TZProgressView.m */,
+				243FF95ED658E1B1C563A6EB00F23BEA /* TZVideoPlayerController.h */,
+				65512B44F8E9D762545905A2A15AA7BB /* TZVideoPlayerController.m */,
+				A3EA66457BEDBA37CC436E707D24C8D3 /* UIView+Layout.h */,
+				E25F299E615D421784B4C7A15FF49572 /* UIView+Layout.m */,
+				B671452E59692ADF230468AD75AEE64E /* Resources */,
+				FC8A8721188BB1CDF2D267193815F7DF /* Support Files */,
 			);
-			name = "Support Files";
-			path = "../Pods/Target Support Files/HomeUI";
+			name = TZImagePickerController;
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		092E143308E09FFE87FC5414539BE8A7 /* UIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				10A4E97AD45D954D10851FBCBA06C937 /* UIAlertView+PromiseKit.h */,
+				0E3E631F0D4B027B1BBCFFF0E2567D4B /* UIAlertView+PromiseKit.m */,
+			);
+			name = UIAlertView;
 			sourceTree = "<group>";
 		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
@@ -78,130 +374,502 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2BF6A5C9583AE7CD5433AFE1B2E9A0ED /* Targets Support Files */ = {
+		101217E1654646EFC993D921515FB489 /* Until */ = {
 			isa = PBXGroup;
 			children = (
-				EB19DED945039AFF10D33143C04C5EB5 /* Pods-Zujian */,
+				41725FA57F4D4146369298BF637D332D /* PMKPromise+Until.m */,
+				E512FB124F14A577F040026A9A6F6B8C /* Promise+Until.h */,
 			);
-			name = "Targets Support Files";
+			name = Until;
 			sourceTree = "<group>";
 		};
-		431F6D441C2A3EFC2829A213AABB00BF /* Products */ = {
+		1676201A899F229A07AE70BDB0FDF228 /* UserAgent */ = {
 			isa = PBXGroup;
 			children = (
-				7D435223A3FFF46D1BAEBCAE44995991 /* libHomeUI.a */,
-				1DB6377C65B81E299F71FB50F47DA782 /* libPods-Zujian.a */,
+				2E9C6E80B2013FA72E9DE9227E21AE09 /* OMGUserAgent.h */,
+				D88C26D67461F32F537CB658C366DE96 /* OMGUserAgent.m */,
+			);
+			name = UserAgent;
+			sourceTree = "<group>";
+		};
+		179F46A2BDDB85D8806C8F868E0BB1FE /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				358C14B7F32D98C809B058072844AC03 /* MJRefresh.h */,
+				3A1F0443C436DEC1C3573C31DC503961 /* MJRefreshAutoFooter.h */,
+				65E81B79FC54D8B5D540781A323762F1 /* MJRefreshAutoFooter.m */,
+				67BC4E88C3818168A562F5A58042C519 /* MJRefreshAutoGifFooter.h */,
+				F5434308EF5B045F683F5A6A0DB5DA04 /* MJRefreshAutoGifFooter.m */,
+				9DB348F0A1A234E90D249ABC603ED182 /* MJRefreshAutoNormalFooter.h */,
+				C497636B6BB11D2348F76B7EF233233F /* MJRefreshAutoNormalFooter.m */,
+				D5F0788F9F7468560A0AA892B50A21DF /* MJRefreshAutoStateFooter.h */,
+				2B7881EE84D197278F56DFD95F55C167 /* MJRefreshAutoStateFooter.m */,
+				ED29FB278D3696A5E256420056090F7C /* MJRefreshBackFooter.h */,
+				B7C7702C21BD28EBEF85DFA4F0815CA1 /* MJRefreshBackFooter.m */,
+				FF56F193BE36D7FE2F765B4CDBA4E83E /* MJRefreshBackGifFooter.h */,
+				2A6094139EB5BBF8730F256F0DB87C59 /* MJRefreshBackGifFooter.m */,
+				C09EBA4B00E133250483CACA9DA3C377 /* MJRefreshBackNormalFooter.h */,
+				47DE54D01451374127EE45953F948517 /* MJRefreshBackNormalFooter.m */,
+				2D70CA5A6718A3A97F226D147999661C /* MJRefreshBackStateFooter.h */,
+				F1B9DC4ADA7BEE685826ADD2EE76AC26 /* MJRefreshBackStateFooter.m */,
+				565852A03FEC2EDDC0AB80AEF92F817B /* MJRefreshComponent.h */,
+				B703592E89F087C56D2605798CF39732 /* MJRefreshComponent.m */,
+				454D0760DAFA8774C22FF9D8271633FA /* MJRefreshConst.h */,
+				8F34C5D35D6BBFAAA22B82F1458978A4 /* MJRefreshConst.m */,
+				7F24095EECEDA64A9A85EDDB2E402352 /* MJRefreshFooter.h */,
+				BE9F7D858074FBE83412E4DE08CFDE6D /* MJRefreshFooter.m */,
+				73082195571427FF356D0CB8E96F107F /* MJRefreshGifHeader.h */,
+				84541B782645627EB244266CEC5A5E62 /* MJRefreshGifHeader.m */,
+				4EE9BCD4CAF6BFBA6599ED8837FFBE2F /* MJRefreshHeader.h */,
+				16789CE78CE987840778B3F7A971F2CA /* MJRefreshHeader.m */,
+				3145D005B29FAA2B7ECB7EAB8FB562CE /* MJRefreshNormalHeader.h */,
+				67524AC2A4D9F3393B3B8C850DDA252C /* MJRefreshNormalHeader.m */,
+				F18BA0A899B77A0A9BB061E1C8404DDE /* MJRefreshStateHeader.h */,
+				8BF12ECF11536AE277CCB526C2BDB0B1 /* MJRefreshStateHeader.m */,
+				79D0DE659B464DD84CF04E6A6F63C10F /* NSBundle+MJRefresh.h */,
+				9662CF0A0347C1305AC024C2AE4DD761 /* NSBundle+MJRefresh.m */,
+				41B765EEDFD0638BBFBFA782F5AE6D9C /* UIScrollView+MJExtension.h */,
+				17EAE6DCCB3120A63C5BBE30B9F17401 /* UIScrollView+MJExtension.m */,
+				087FC7DD77B267B701F39BA403F05A1F /* UIScrollView+MJRefresh.h */,
+				191C8DC12422E18A445006AB0163951C /* UIScrollView+MJRefresh.m */,
+				989BBD326BF2FED3BD91690F73EB0FE9 /* UIView+MJExtension.h */,
+				582A4678B3379860568E99DFC7E4946B /* UIView+MJExtension.m */,
+				6EB047FC8E6CA8746B180EB3857DF352 /* Resources */,
+				C6D2FF5E9341598B943682016F2E9D70 /* Support Files */,
+			);
+			name = MJRefresh;
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		23CCFC4A2A8ED9F03279D72B61574A79 /* Pause */ = {
+			isa = PBXGroup;
+			children = (
+				2F8DCAB3A7D30E95C5D2666AD5DEF65F /* PMKPromise+Pause.m */,
+				101BC31EFB1637402E9F9E09F892582B /* Promise+Pause.h */,
+			);
+			name = Pause;
+			sourceTree = "<group>";
+		};
+		257540CC3C80628AF89E063B2C8B1891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B807EA095E3A4A61F7EAE16291177D1D /* libMJRefresh.a */,
+				535671C3C11719459B0F2FCC871C64CB /* libOMGHTTPURLRQ.a */,
+				1DEE31B130706D834B23490F5F11B420 /* libPods-YYTextKitDemo.a */,
+				5C9AD20D9ADE49DCAF0C5669288A5B87 /* libPromiseKit.a */,
+				AC5EB66ABFD97EE5A1D8E377EDA1D063 /* libTZImagePickerController.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		60043484F0C6FA77AF7F87CF99674F9F /* HomeUI */ = {
+		308BFF6B9EF643A7A64FD4C711433927 /* When */ = {
 			isa = PBXGroup;
 			children = (
-				7D1CE2D39D0F4FCEA39AE97AD3A8146E /* BBB.h */,
-				F771D56F39972405157A6E67A1A80F3D /* BBB.m */,
-				8736CC8B04E0FD4B30FB5489960F2DB2 /* ReplaceMe.m */,
-				C903479CB81F03DF961257F7552A4908 /* Pod */,
-				03FF68A111E61EE720A8F5E4E1DD9A39 /* Support Files */,
+				28AAD88D38A152DE2CBBC6886690F92E /* PMKPromise+When.m */,
+				33A98608860D0C730360A8F3307F042C /* Promise+When.h */,
 			);
-			name = HomeUI;
-			path = ../UI;
+			name = When;
+			sourceTree = "<group>";
+		};
+		31E29D769A131B426224931AD3B4AA62 /* Pods-YYTextKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				74BBBD9C589A47A90D31DB762AEA4D5C /* Pods-YYTextKitDemo-acknowledgements.markdown */,
+				F2A6F203D41CBCF1495AFC8018C8332B /* Pods-YYTextKitDemo-acknowledgements.plist */,
+				0D108850ADD5E49671F2C7CE55505F9B /* Pods-YYTextKitDemo-dummy.m */,
+				591607274191A97AC9CC77C9DF03A413 /* Pods-YYTextKitDemo-resources.sh */,
+				9CE38E47F745FDCF1B671DB51074C63F /* Pods-YYTextKitDemo.debug.xcconfig */,
+				356BB8CBD0813C8E2D7C0AFE9D4FA321 /* Pods-YYTextKitDemo.release.xcconfig */,
+			);
+			name = "Pods-YYTextKitDemo";
+			path = "Target Support Files/Pods-YYTextKitDemo";
+			sourceTree = "<group>";
+		};
+		32F47A044D9E643627DCC29707D7EB4F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				99784112059C0BE0D484FEFDF7E652CC /* UIView+PromiseKit.h */,
+				6EC5A75E8394A4BA575AF482357F5776 /* UIView+PromiseKit.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		623EE879C22C4E591119BA533BE2F7F8 /* UIActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				2C829CF5F9A05395BA690AAE84E583EA /* UIActionSheet+PromiseKit.h */,
+				D53D6DAD4969F8A4179D281B409EFDB4 /* UIActionSheet+PromiseKit.m */,
+			);
+			name = UIActionSheet;
+			sourceTree = "<group>";
+		};
+		6530A4D8311823E9075C759DE88F29C2 /* Promise */ = {
+			isa = PBXGroup;
+			children = (
+				BDA7A921F83C43D0646792A73414F7AD /* fwd.h */,
+				575F1535114887033E6822CB4080AA72 /* PMKPromise.m */,
+				950A7D8EAEF8245CE3281380DE94B04D /* Promise.h */,
+				CAEAF8866F713CE5070FD81A751FA211 /* PromiseKit.h */,
+			);
+			name = Promise;
+			sourceTree = "<group>";
+		};
+		6B50667EDD6BD30A8ABDED181D91A55A /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8EEB6264DA1648873823F4399BC5B4D4 /* UIViewController+PromiseKit.h */,
+				44BA97B05318CA4FCA13124A7F750CF5 /* UIViewController+PromiseKit.m */,
+			);
+			name = UIViewController;
+			sourceTree = "<group>";
+		};
+		6EB047FC8E6CA8746B180EB3857DF352 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				333153365B46171E782F65EBC79BB880 /* MJRefresh.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				CACC51886FA305F0983412E4AE28A435 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				431F6D441C2A3EFC2829A213AABB00BF /* Products */,
-				2BF6A5C9583AE7CD5433AFE1B2E9A0ED /* Targets Support Files */,
+				FE551557FD224A97F45F3506FB55C0A6 /* Pods */,
+				257540CC3C80628AF89E063B2C8B1891 /* Products */,
+				A406096AF689ED419F7758BB8402346A /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		C903479CB81F03DF961257F7552A4908 /* Pod */ = {
+		7E33D1E8011AF43059D5CE2A16CF4699 /* FormURLEncode */ = {
 			isa = PBXGroup;
 			children = (
-				A3E6E638EDB7A34470A304E6FAAD9ABC /* HomeUI.podspec */,
+				5CFC667307479A289DB17F47D08443D6 /* OMGFormURLEncode.h */,
+				7EAFBFE54FA95543C2A47CB4122B867F /* OMGFormURLEncode.m */,
 			);
-			name = Pod;
+			name = FormURLEncode;
 			sourceTree = "<group>";
 		};
-		CACC51886FA305F0983412E4AE28A435 /* Development Pods */ = {
+		85691743121C657E5C5FD701E2E86E75 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				60043484F0C6FA77AF7F87CF99674F9F /* HomeUI */,
+				D65B6BD967A1EF0A259657154A376BA3 /* PromiseKit.xcconfig */,
+				DBF57F5DCD583C8478706050818A1DAE /* PromiseKit-dummy.m */,
+				761C7372FEE48481DAC7ADC76AAC8061 /* PromiseKit-prefix.pch */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
 			sourceTree = "<group>";
 		};
-		EB19DED945039AFF10D33143C04C5EB5 /* Pods-Zujian */ = {
+		887B79E9FD97B173F040560DA2979D4C /* NSURLConnection */ = {
 			isa = PBXGroup;
 			children = (
-				333EF65A1D44101F91C1225A621574EA /* Pods-Zujian-acknowledgements.markdown */,
-				ADFEA99939608BE78C87DA9BC006DA18 /* Pods-Zujian-acknowledgements.plist */,
-				CF983695979E8149B10DE132CD35371C /* Pods-Zujian-dummy.m */,
-				34301EE5DE73295F60FFB2BA74B1E4AA /* Pods-Zujian.debug.xcconfig */,
-				2B8A0D0F07319CDBA5510229E2A2D2E5 /* Pods-Zujian.release.xcconfig */,
+				8975DF2AD70AC1CA6936AE998F906C9B /* NSURLConnection+PromiseKit.h */,
+				93EA33EAA197C43BE38B85DD183F3C8A /* NSURLConnection+PromiseKit.m */,
 			);
-			name = "Pods-Zujian";
-			path = "Target Support Files/Pods-Zujian";
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		8D6D43E16BFCED29F4864A664EE8ECDD /* RQ */ = {
+			isa = PBXGroup;
+			children = (
+				AC6FB52D9061E78D1E288A9FA0C74ABD /* OMGHTTPURLRQ.h */,
+				AA167EB76A817746C79A19A271CB849C /* OMGHTTPURLRQ.m */,
+			);
+			name = RQ;
+			sourceTree = "<group>";
+		};
+		9A59199412A383EB94F027EAB94E3664 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F092BDCEA7258818A6A4E408ABD25 /* CALayer */,
+				E129CB6AB03C6FC3223D00CCD76BC212 /* NSNotificationCenter */,
+				887B79E9FD97B173F040560DA2979D4C /* NSURLConnection */,
+				23CCFC4A2A8ED9F03279D72B61574A79 /* Pause */,
+				6530A4D8311823E9075C759DE88F29C2 /* Promise */,
+				85691743121C657E5C5FD701E2E86E75 /* Support Files */,
+				623EE879C22C4E591119BA533BE2F7F8 /* UIActionSheet */,
+				092E143308E09FFE87FC5414539BE8A7 /* UIAlertView */,
+				32F47A044D9E643627DCC29707D7EB4F /* UIView */,
+				6B50667EDD6BD30A8ABDED181D91A55A /* UIViewController */,
+				101217E1654646EFC993D921515FB489 /* Until */,
+				308BFF6B9EF643A7A64FD4C711433927 /* When */,
+			);
+			name = PromiseKit;
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		A406096AF689ED419F7758BB8402346A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				31E29D769A131B426224931AD3B4AA62 /* Pods-YYTextKitDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B671452E59692ADF230468AD75AEE64E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				125F814A59A686450E8513546CDB5243 /* TZImagePickerController.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BE5F092BDCEA7258818A6A4E408ABD25 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				A4BCD35D5856F25CFEEC5774DB911C89 /* CALayer+PromiseKit.h */,
+				B552D53BFC729DB893C536B912D3AFBC /* CALayer+PromiseKit.m */,
+			);
+			name = CALayer;
+			sourceTree = "<group>";
+		};
+		C6D2FF5E9341598B943682016F2E9D70 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF9DFDBD81C4E05E71D6C06370426B /* MJRefresh.xcconfig */,
+				5C207E16CA2BD60F20B86B09783C87D8 /* MJRefresh-dummy.m */,
+				67DC2F399DB535009232B954BE5CF6B9 /* MJRefresh-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		E129CB6AB03C6FC3223D00CCD76BC212 /* NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				081F17D62EE5640E246A55ED1CD5D3DB /* NSNotificationCenter+PromiseKit.h */,
+				021CC7C1796DE38C1A5D289F53AC77A6 /* NSNotificationCenter+PromiseKit.m */,
+			);
+			name = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		E49BBEB810BCB3A5778EE33758289BC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90529B8ED14626E2F807FF0235580C07 /* OMGHTTPURLRQ.xcconfig */,
+				F33C69BA43934D73C48A0DE79563D46F /* OMGHTTPURLRQ-dummy.m */,
+				F79C8B9D65965235AFB47AFA2B473BD0 /* OMGHTTPURLRQ-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OMGHTTPURLRQ";
+			sourceTree = "<group>";
+		};
+		F72BC579E13AE27F42A663CF3A48ADD5 /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				7E33D1E8011AF43059D5CE2A16CF4699 /* FormURLEncode */,
+				8D6D43E16BFCED29F4864A664EE8ECDD /* RQ */,
+				E49BBEB810BCB3A5778EE33758289BC2 /* Support Files */,
+				1676201A899F229A07AE70BDB0FDF228 /* UserAgent */,
+			);
+			name = OMGHTTPURLRQ;
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		FC8A8721188BB1CDF2D267193815F7DF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E3AA2EFBBF28ED079F26B8FF042BD41 /* TZImagePickerController.xcconfig */,
+				2B9097205A3A5CE479FE7D581DFF17A2 /* TZImagePickerController-dummy.m */,
+				E0CE7AD727E96F16436148B888D1C164 /* TZImagePickerController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TZImagePickerController";
+			sourceTree = "<group>";
+		};
+		FE551557FD224A97F45F3506FB55C0A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				179F46A2BDDB85D8806C8F868E0BB1FE /* MJRefresh */,
+				F72BC579E13AE27F42A663CF3A48ADD5 /* OMGHTTPURLRQ */,
+				9A59199412A383EB94F027EAB94E3664 /* PromiseKit */,
+				06CDB2A35FA5D800371E098F6E90F66E /* TZImagePickerController */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B3FD11850D7FF1E1ACD02F1425B97C98 /* Headers */ = {
+		002CB8049D240C6123F6A5EC57AC9906 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9BF687985B65849291DBCE78BB0C51B /* BBB.h in Headers */,
+				69714CBF6C811BB7995C626F6B27C5A1 /* NSBundle+TZImagePicker.h in Headers */,
+				541A5C5747AB7356CAEA4489B0EAA7DD /* TZAssetCell.h in Headers */,
+				D6F4C2D1B97FE1902C74FF7506906A70 /* TZAssetModel.h in Headers */,
+				B7160FF276863D3E4272D4B2EF8B8C4A /* TZGifPhotoPreviewController.h in Headers */,
+				B4353639C2234A463517266954FA125D /* TZImageCropManager.h in Headers */,
+				1BC43D8D43B49D810670917B9B5990A9 /* TZImageManager.h in Headers */,
+				D36B82024CFB4BA17408B3336911282E /* TZImagePickerController.h in Headers */,
+				7DD2FE171AEA73FA2EC9631C1F4299EC /* TZImageRequestOperation.h in Headers */,
+				37BB1B66D117B02887E71C66E6084C9C /* TZLocationManager.h in Headers */,
+				3CD7B7D5A410BC0D08B50EE870839C45 /* TZPhotoPickerController.h in Headers */,
+				B464061659F70C4C46D5C6BF8ED9BBED /* TZPhotoPreviewCell.h in Headers */,
+				1C37BC6904D04804B3D93CB3C74F86E2 /* TZPhotoPreviewController.h in Headers */,
+				CB3864E0708F2A46EA0B01127BC4324F /* TZProgressView.h in Headers */,
+				74F40B5D2A062752DAB6C19E961C4D81 /* TZVideoPlayerController.h in Headers */,
+				553543F1C5C8C74E63C8579F78EF27B9 /* UIView+Layout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8D9789ADF1093C745853401CBE358CC /* Headers */ = {
+		0D5316563049B7FFFE809507686D5CD2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		477BAB0E4160BA50A95D19C6240F5C8F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA4E7806A8D26A2DFCF2B388CBF3EFD /* OMGFormURLEncode.h in Headers */,
+				000BBEA50FF245B65F6441EE5CF67CC8 /* OMGHTTPURLRQ.h in Headers */,
+				AA0608C54CD0C71B3269F3503F7D2E81 /* OMGUserAgent.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7640EACCCF604CA08C069FEF75A9B1E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0620F4A74E732CDE4D62913FE06375B8 /* CALayer+PromiseKit.h in Headers */,
+				04C1B6DB497623E898FE3196FEBD42B9 /* fwd.h in Headers */,
+				61817C570C4561E7413140BA7843D75D /* NSNotificationCenter+PromiseKit.h in Headers */,
+				066F236A5D2551CD2092EE097F42FB38 /* NSURLConnection+PromiseKit.h in Headers */,
+				82DF6656BD2859D6669880EC65DD66C8 /* Promise+Pause.h in Headers */,
+				C9BDFBF801035C0A1F07DC73104BFD18 /* Promise+Until.h in Headers */,
+				D698CE75CF828AEDB38D38B0B258208F /* Promise+When.h in Headers */,
+				51B26557BE611543E031980E638B01EA /* Promise.h in Headers */,
+				6070B860C088B5E0F85617492685BE8D /* PromiseKit.h in Headers */,
+				338ED19F91201FFB1D3AFEA01E954BB0 /* UIActionSheet+PromiseKit.h in Headers */,
+				090AF9FAF41682D41F64B1F41913A026 /* UIAlertView+PromiseKit.h in Headers */,
+				41B1D2AB4A1A8F8A068C9039B13692D0 /* UIView+PromiseKit.h in Headers */,
+				77A1D9E6E9C33F9839905E18039C2FB9 /* UIViewController+PromiseKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		982D7093194E7F3E35523624C9C571FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2699D97E08F9EE2C7A15DC3960AD640 /* MJRefresh.h in Headers */,
+				57172C38605F7EA414A730D95DC14C06 /* MJRefreshAutoFooter.h in Headers */,
+				4932D8EC928F5974515D6513B51F6BEC /* MJRefreshAutoGifFooter.h in Headers */,
+				75BD5DC917B7E87E779A4B3E0C3B1703 /* MJRefreshAutoNormalFooter.h in Headers */,
+				676BD5F3634B422C479DAE9517F1EF11 /* MJRefreshAutoStateFooter.h in Headers */,
+				55DF52E4E16E695BC4A2B364B97E2A29 /* MJRefreshBackFooter.h in Headers */,
+				ED15FF41F3BC62852663C605419B582B /* MJRefreshBackGifFooter.h in Headers */,
+				96CCE7410A743FFC77B9ED2A15E7FAC5 /* MJRefreshBackNormalFooter.h in Headers */,
+				04EC641B672FA9D715BF067CE8A1041F /* MJRefreshBackStateFooter.h in Headers */,
+				2CAC2FFD87AF647872A6B2E853895882 /* MJRefreshComponent.h in Headers */,
+				2166408B2BB5E63C16478CC8BA82CF0B /* MJRefreshConst.h in Headers */,
+				62C84DC352698A5BFB6E863A1CD13D4F /* MJRefreshFooter.h in Headers */,
+				63F997A39F33E9B0DC0C5FE652B34C6D /* MJRefreshGifHeader.h in Headers */,
+				14BFAA4E1009F443878A196FC38A5952 /* MJRefreshHeader.h in Headers */,
+				C541E7398F05864904FC70257C042BD3 /* MJRefreshNormalHeader.h in Headers */,
+				C6531579B3E5B9C61FC7461AF55F8866 /* MJRefreshStateHeader.h in Headers */,
+				1DD2791D582A3C3D0D29B761A9BEE2A4 /* NSBundle+MJRefresh.h in Headers */,
+				7C5E68FD41D140F4F0CBCB353F24A627 /* UIScrollView+MJExtension.h in Headers */,
+				099025E33E13F8A4C1F2510592B8CBBD /* UIScrollView+MJRefresh.h in Headers */,
+				6CF3A474DB79FD4553FC9928906055A0 /* UIView+MJExtension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		217DDCEEBBD731A27CEDFA36CD45E162 /* Pods-Zujian */ = {
+		1120A19889CDBCBB15E09894FE37AC74 /* MJRefresh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EFDF042E295DE04ADCF0FBCACBB8230A /* Build configuration list for PBXNativeTarget "Pods-Zujian" */;
+			buildConfigurationList = 545DA22D0E274583CB7962BBCB69F8D0 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
 			buildPhases = (
-				D8D9789ADF1093C745853401CBE358CC /* Headers */,
-				2D80C61A018639B54A549C478BA8629B /* Sources */,
-				B44793EB10889C57E99A39EC0E02EC17 /* Frameworks */,
+				982D7093194E7F3E35523624C9C571FC /* Headers */,
+				5D823918F7FF8F498022EC5120D36C93 /* Sources */,
+				D15E1539983AEB38D87D03DE63D27558 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				57FA67EE20A95851727462D5523F1BAA /* PBXTargetDependency */,
 			);
-			name = "Pods-Zujian";
-			productName = "Pods-Zujian";
-			productReference = 1DB6377C65B81E299F71FB50F47DA782 /* libPods-Zujian.a */;
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = B807EA095E3A4A61F7EAE16291177D1D /* libMJRefresh.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		C2C466CFDEEF77EC543F969EE05EAE8B /* HomeUI */ = {
+		9530FFCE5BCA3B5597FA8BCDB953A375 /* Pods-YYTextKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A768EABF1B0B75BEE8E3A295204A0D08 /* Build configuration list for PBXNativeTarget "HomeUI" */;
+			buildConfigurationList = 579B823679102897E556AA381AD09C87 /* Build configuration list for PBXNativeTarget "Pods-YYTextKitDemo" */;
 			buildPhases = (
-				B3FD11850D7FF1E1ACD02F1425B97C98 /* Headers */,
-				775E9B5CD578E93EBCDF22FE2C5B3297 /* Sources */,
-				0005AB10ADF0E7538AD144F8066653CA /* Frameworks */,
+				0D5316563049B7FFFE809507686D5CD2 /* Headers */,
+				2721CA39D283606377FCE374125679DD /* Sources */,
+				5235B06263EFC7799CE08036D9F46179 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFE371AECCA1F8C4188667FFE602DF3 /* PBXTargetDependency */,
+				9BF49D950D60548B9EEE04A62028C5D3 /* PBXTargetDependency */,
+				14D60D1E8FA188EB2A0D4455E9B009B3 /* PBXTargetDependency */,
+				77D154AEB1531F0F60FCDBEBA3D1E4FB /* PBXTargetDependency */,
+			);
+			name = "Pods-YYTextKitDemo";
+			productName = "Pods-YYTextKitDemo";
+			productReference = 1DEE31B130706D834B23490F5F11B420 /* libPods-YYTextKitDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A6B454890D49655CA4596D53934D716E /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD4B0721D34027042C5A43B6F8A71FC /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				7640EACCCF604CA08C069FEF75A9B1E3 /* Headers */,
+				9D1BE1352A14D56B189BF9B3FB1CBB6B /* Sources */,
+				941875CF81D90D635189ACA9F07970E4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6A22019D5DFA0F34169E43FA62D4B7F /* PBXTargetDependency */,
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = 5C9AD20D9ADE49DCAF0C5669288A5B87 /* libPromiseKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1107A1FF4356B45B5A3EFA6189AF952 /* OMGHTTPURLRQ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3E8EE026AD1FAB9FD1C1AB96AC0103D /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */;
+			buildPhases = (
+				477BAB0E4160BA50A95D19C6240F5C8F /* Headers */,
+				CFB820426A8B2122C43D2BC108958E3A /* Sources */,
+				A418A8FE3F79BE706B207876260CDC53 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = HomeUI;
-			productName = HomeUI;
-			productReference = 7D435223A3FFF46D1BAEBCAE44995991 /* libHomeUI.a */;
+			name = OMGHTTPURLRQ;
+			productName = OMGHTTPURLRQ;
+			productReference = 535671C3C11719459B0F2FCC871C64CB /* libOMGHTTPURLRQ.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F846F38BE8EECD1244DC2F80D9424684 /* TZImagePickerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82B362C98C2FE058CC6D40DBB9D65830 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */;
+			buildPhases = (
+				002CB8049D240C6123F6A5EC57AC9906 /* Headers */,
+				473BA829CAE57AF36DED159B37887D0A /* Sources */,
+				9B38B1D1A47A7D726C0E1D5DBDF4455C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TZImagePickerController;
+			productName = TZImagePickerController;
+			productReference = AC5EB66ABFD97EE5A1D8E377EDA1D063 /* libTZImagePickerController.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -221,73 +889,264 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 431F6D441C2A3EFC2829A213AABB00BF /* Products */;
+			productRefGroup = 257540CC3C80628AF89E063B2C8B1891 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2C466CFDEEF77EC543F969EE05EAE8B /* HomeUI */,
-				217DDCEEBBD731A27CEDFA36CD45E162 /* Pods-Zujian */,
+				1120A19889CDBCBB15E09894FE37AC74 /* MJRefresh */,
+				C1107A1FF4356B45B5A3EFA6189AF952 /* OMGHTTPURLRQ */,
+				9530FFCE5BCA3B5597FA8BCDB953A375 /* Pods-YYTextKitDemo */,
+				A6B454890D49655CA4596D53934D716E /* PromiseKit */,
+				F846F38BE8EECD1244DC2F80D9424684 /* TZImagePickerController */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2D80C61A018639B54A549C478BA8629B /* Sources */ = {
+		2721CA39D283606377FCE374125679DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75C7609239EE8F2783B2DC521B8C5D0C /* Pods-Zujian-dummy.m in Sources */,
+				EF9319BC2A7A1EF0C02481B0424DC9DF /* Pods-YYTextKitDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		775E9B5CD578E93EBCDF22FE2C5B3297 /* Sources */ = {
+		473BA829CAE57AF36DED159B37887D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E73251E1C4EACE3747E4E8123EFB253 /* BBB.m in Sources */,
-				69C6AA132F1B381B047B1D7948B6B6E6 /* HomeUI-dummy.m in Sources */,
-				6DE3E566B66C0B238F1B647BD9B39DAC /* ReplaceMe.m in Sources */,
+				307F9C6502228F3145B0327D2A6CED42 /* NSBundle+TZImagePicker.m in Sources */,
+				F4B7FF68A3462EA670331A621F0BAA5C /* TZAssetCell.m in Sources */,
+				3350165AE8A65538F3F2EA115944CBA3 /* TZAssetModel.m in Sources */,
+				ACD874B107220CB80B17440643D6C859 /* TZGifPhotoPreviewController.m in Sources */,
+				5E06B89FE9CCD53CDDB1F32F69A61CBF /* TZImageCropManager.m in Sources */,
+				A5F8E1E9791E453E2A236787DE64BB3D /* TZImageManager.m in Sources */,
+				3FA7E1D68DE60AC037D67EA72B6F09D8 /* TZImagePickerController-dummy.m in Sources */,
+				7814354B706169E19BD0A6935BBD0030 /* TZImagePickerController.m in Sources */,
+				0F0D3277E9DC29CD151E7E1F260BF0EB /* TZImageRequestOperation.m in Sources */,
+				58B4C37211C5D3E154572832102EC910 /* TZLocationManager.m in Sources */,
+				EC745E955EB51397245DF970B18C3EC4 /* TZPhotoPickerController.m in Sources */,
+				E09BD062243C9E4C534AD77B653A0899 /* TZPhotoPreviewCell.m in Sources */,
+				A9A30DCED5E75FFC1D8ACADFAAC88E6B /* TZPhotoPreviewController.m in Sources */,
+				B332E69F9C565A8752E59D098C5CBDB5 /* TZProgressView.m in Sources */,
+				C90CA305996FEF99DA83F11DCFA5AACA /* TZVideoPlayerController.m in Sources */,
+				05F44A11CBD14BDB51BC28C3022BF477 /* UIView+Layout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D823918F7FF8F498022EC5120D36C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A63D70D63EC970552A5C58A7CABFD8DB /* MJRefresh-dummy.m in Sources */,
+				7183DD6C6D49F86D251A767694F5B752 /* MJRefreshAutoFooter.m in Sources */,
+				C5C4C0DCE585B3E142E6A0D36B2A7772 /* MJRefreshAutoGifFooter.m in Sources */,
+				13C9F69938755DA1ABC16A1C79BA5D42 /* MJRefreshAutoNormalFooter.m in Sources */,
+				F889BF8EF2B27A1A5E610814B15E0CC2 /* MJRefreshAutoStateFooter.m in Sources */,
+				065AA84DEE8A6F45A10B8CCBA19A2236 /* MJRefreshBackFooter.m in Sources */,
+				2023954434BD422C61FB77CD65B85CA7 /* MJRefreshBackGifFooter.m in Sources */,
+				68CBBCC20E1C7E37AAAAC044C2A06802 /* MJRefreshBackNormalFooter.m in Sources */,
+				E826AB541DCB8E61AC3BAC4DF34E4533 /* MJRefreshBackStateFooter.m in Sources */,
+				58D0EC42766DE92812B4292D9EF08A6C /* MJRefreshComponent.m in Sources */,
+				BF36CBE24530B091F42E15AD1A73DB36 /* MJRefreshConst.m in Sources */,
+				138DE9751AB03ED6F01289996CA87B65 /* MJRefreshFooter.m in Sources */,
+				22F101259F098AB30E03C3479A9C2586 /* MJRefreshGifHeader.m in Sources */,
+				63934D6FC6CD9649C2C4D4339AE3AD26 /* MJRefreshHeader.m in Sources */,
+				39BF4D2B20DAF9BEC823C41C400BC264 /* MJRefreshNormalHeader.m in Sources */,
+				6C0AA839EB1D5A269102E8747DDF7FF5 /* MJRefreshStateHeader.m in Sources */,
+				30CBCEF615DC5CCAD3BAE6FEC87E5869 /* NSBundle+MJRefresh.m in Sources */,
+				7FC33B8661EAEE3CFF93D71FCA0AC3CC /* UIScrollView+MJExtension.m in Sources */,
+				071598203E3CF36ECEE9A8F2D7246524 /* UIScrollView+MJRefresh.m in Sources */,
+				C9D82DE431CD0167462374FE9486B6F2 /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1BE1352A14D56B189BF9B3FB1CBB6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC33092DDA06799FB9A91254D268FCE /* CALayer+PromiseKit.m in Sources */,
+				1446A07E22C5AC32F999D3665D9A1B9D /* NSNotificationCenter+PromiseKit.m in Sources */,
+				3CFC72D9FA104FB7B23BBC6D8680B420 /* NSURLConnection+PromiseKit.m in Sources */,
+				A01D27B3BB2058E5698B55AB110173CA /* PMKPromise+Pause.m in Sources */,
+				66E62F7811DA0FFB81DE95365FC19926 /* PMKPromise+Until.m in Sources */,
+				8D08BBCA15EB50AEFF041EF498AFC50D /* PMKPromise+When.m in Sources */,
+				DC939B3E913A9ACD5531CB232007CD88 /* PMKPromise.m in Sources */,
+				C74CDBD115AC53CEA1E5132F429429F8 /* PromiseKit-dummy.m in Sources */,
+				05E7C87E97E219D43834C324447984E2 /* UIActionSheet+PromiseKit.m in Sources */,
+				704754F7CD3042AEBCCD4E7F47CFFE90 /* UIAlertView+PromiseKit.m in Sources */,
+				84039334DC0F5C863D5D34C458A8FB18 /* UIView+PromiseKit.m in Sources */,
+				036E797EDF9864F91ACDD4CB72E02E76 /* UIViewController+PromiseKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB820426A8B2122C43D2BC108958E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5335FA318C1C9321A3A539ACED1E2508 /* OMGFormURLEncode.m in Sources */,
+				BB8E699C275FBC6C8224F30BB3619033 /* OMGHTTPURLRQ-dummy.m in Sources */,
+				04763426070EFC2081BE9E8C36B06E35 /* OMGHTTPURLRQ.m in Sources */,
+				7239C9990465C1C3608A5F40458F23A1 /* OMGUserAgent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		57FA67EE20A95851727462D5523F1BAA /* PBXTargetDependency */ = {
+		14D60D1E8FA188EB2A0D4455E9B009B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = HomeUI;
-			target = C2C466CFDEEF77EC543F969EE05EAE8B /* HomeUI */;
-			targetProxy = 11F75E1210CD4BB37F8F46BFD90D1320 /* PBXContainerItemProxy */;
+			name = PromiseKit;
+			target = A6B454890D49655CA4596D53934D716E /* PromiseKit */;
+			targetProxy = B05BC93F0557C877E92151223FAB1F1C /* PBXContainerItemProxy */;
+		};
+		77D154AEB1531F0F60FCDBEBA3D1E4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TZImagePickerController;
+			target = F846F38BE8EECD1244DC2F80D9424684 /* TZImagePickerController */;
+			targetProxy = A2CB2168CF8675D920EDF139C4C5D9CC /* PBXContainerItemProxy */;
+		};
+		9BF49D950D60548B9EEE04A62028C5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = C1107A1FF4356B45B5A3EFA6189AF952 /* OMGHTTPURLRQ */;
+			targetProxy = BF118737F60C2FA1E953572367780DEE /* PBXContainerItemProxy */;
+		};
+		A6A22019D5DFA0F34169E43FA62D4B7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OMGHTTPURLRQ;
+			target = C1107A1FF4356B45B5A3EFA6189AF952 /* OMGHTTPURLRQ */;
+			targetProxy = 2135C1217AC3B2E158B25E4AE8D7F276 /* PBXContainerItemProxy */;
+		};
+		AAFE371AECCA1F8C4188667FFE602DF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 1120A19889CDBCBB15E09894FE37AC74 /* MJRefresh */;
+			targetProxy = B80B89812CCD930D5ABA647463D63AE6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0EDF30A0CBF97CA92E882AE991359C10 /* Release */ = {
+		1F7FCCFE77C0D85D21BCE7AFCF71E2BB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 042111C198CFBB4EEA4D9D5E624BEB43 /* HomeUI.xcconfig */;
+			baseConfigurationReference = D65B6BD967A1EF0A259657154A376BA3 /* PromiseKit.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/HomeUI/HomeUI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = HomeUI;
-				PRODUCT_NAME = HomeUI;
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BB816FEA6AB149D5D9C2BBD7283C78E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CF9DFDBD81C4E05E71D6C06370426B /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3968BD7B28A8E5B141CF5FCD5F38071A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CE38E47F745FDCF1B671DB51074C63F /* Pods-YYTextKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EE553FC06295F6E1F39ED39F6AD37C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90529B8ED14626E2F807FF0235580C07 /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OMGHTTPURLRQ;
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555D8EBF6C4BFF2EDAFFA1EC76D2FB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CF9DFDBD81C4E05E71D6C06370426B /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MJRefresh;
+				PRODUCT_NAME = MJRefresh;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		105F90BF10F8688032FB629A9DA204FD /* Debug */ = {
+		91CEA2167686F877588A6CB227F9051A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,7 +1197,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -351,18 +1210,116 @@
 			};
 			name = Debug;
 		};
-		10C2AACBBAC9C8ED24ABB1EE3B0CFBE2 /* Debug */ = {
+		99FAD69B250B646CDBDC000BD23BC90B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34301EE5DE73295F60FFB2BA74B1E4AA /* Pods-Zujian.debug.xcconfig */;
+			baseConfigurationReference = 90529B8ED14626E2F807FF0235580C07 /* OMGHTTPURLRQ.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/OMGHTTPURLRQ/OMGHTTPURLRQ-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = OMGHTTPURLRQ;
+				PRODUCT_NAME = OMGHTTPURLRQ;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C54930350822DFF2E7267722264E3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D65B6BD967A1EF0A259657154A376BA3 /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = PromiseKit;
+				PRODUCT_NAME = PromiseKit;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2760A21C8BCB6FA4B8635E42D9EA0F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3AA2EFBBF28ED079F26B8FF042BD41 /* TZImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TZImagePickerController;
+				PRODUCT_NAME = TZImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40725AF719BADA7B965AD21B337FE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E3AA2EFBBF28ED079F26B8FF042BD41 /* TZImagePickerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TZImagePickerController/TZImagePickerController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TZImagePickerController;
+				PRODUCT_NAME = TZImagePickerController;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B667AC7E18A338747327EDAC880F3F69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 356BB8CBD0813C8E2D7C0AFE9D4FA321 /* Pods-YYTextKitDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -371,10 +1328,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		4523AD7643ED91A440EAEA20025EC111 /* Release */ = {
+		BB642F591A2816F2A0D621778A7CD6BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -422,7 +1380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,80 +1392,59 @@
 			};
 			name = Release;
 		};
-		87E268017E1154A52B589B91BDD5DCDF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 042111C198CFBB4EEA4D9D5E624BEB43 /* HomeUI.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/HomeUI/HomeUI-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = HomeUI;
-				PRODUCT_NAME = HomeUI;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		A1F9E01172F9BC3D55E066F4A998F93B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B8A0D0F07319CDBA5510229E2A2D2E5 /* Pods-Zujian.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				105F90BF10F8688032FB629A9DA204FD /* Debug */,
-				4523AD7643ED91A440EAEA20025EC111 /* Release */,
+				91CEA2167686F877588A6CB227F9051A /* Debug */,
+				BB642F591A2816F2A0D621778A7CD6BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A768EABF1B0B75BEE8E3A295204A0D08 /* Build configuration list for PBXNativeTarget "HomeUI" */ = {
+		545DA22D0E274583CB7962BBCB69F8D0 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				87E268017E1154A52B589B91BDD5DCDF /* Debug */,
-				0EDF30A0CBF97CA92E882AE991359C10 /* Release */,
+				2BB816FEA6AB149D5D9C2BBD7283C78E /* Debug */,
+				555D8EBF6C4BFF2EDAFFA1EC76D2FB47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EFDF042E295DE04ADCF0FBCACBB8230A /* Build configuration list for PBXNativeTarget "Pods-Zujian" */ = {
+		579B823679102897E556AA381AD09C87 /* Build configuration list for PBXNativeTarget "Pods-YYTextKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10C2AACBBAC9C8ED24ABB1EE3B0CFBE2 /* Debug */,
-				A1F9E01172F9BC3D55E066F4A998F93B /* Release */,
+				3968BD7B28A8E5B141CF5FCD5F38071A /* Debug */,
+				B667AC7E18A338747327EDAC880F3F69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82B362C98C2FE058CC6D40DBB9D65830 /* Build configuration list for PBXNativeTarget "TZImagePickerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40725AF719BADA7B965AD21B337FE12 /* Debug */,
+				A2760A21C8BCB6FA4B8635E42D9EA0F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3E8EE026AD1FAB9FD1C1AB96AC0103D /* Build configuration list for PBXNativeTarget "OMGHTTPURLRQ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EE553FC06295F6E1F39ED39F6AD37C3 /* Debug */,
+				99FAD69B250B646CDBDC000BD23BC90B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD4B0721D34027042C5A43B6F8A71FC /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7FCCFE77C0D85D21BCE7AFCF71E2BB /* Debug */,
+				9C54930350822DFF2E7267722264E3C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
