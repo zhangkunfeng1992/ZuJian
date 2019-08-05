@@ -286,8 +286,10 @@
 
 
 
-typedef void(^TZFAlbumTableViewSelectAction)(TZAlbumModel *albumModel);
 @interface TZAlbumPickerController : UIView
+
+typedef void(^TZFAlbumTableViewSelectAction)(TZAlbumModel *albumModel);
+
 @property (nonatomic , strong) TZImagePickerController *imagePickerVc;
 @property (nonatomic, assign) NSInteger columnNumber;
 @property (assign, nonatomic) BOOL isFirstAppear;

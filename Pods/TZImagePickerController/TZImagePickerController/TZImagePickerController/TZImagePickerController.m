@@ -63,16 +63,6 @@
     self.navigationBar.tintColor = [UIColor whiteColor];
     self.automaticallyAdjustsScrollViewInsets = NO;
     if (self.needShowStatusBar) [UIApplication sharedApplication].statusBarHidden = NO;
-    
-    
-    
-//    UIButton *titleButton = [[UIButton alloc] init];
-//
-//    [titleButton setTitle:@"3333" forState:UIControlStateNormal];
-//
-//    self.navigationItem.titleView = titleButton;
-    
-    
 }
 
 
@@ -769,10 +759,9 @@
 
 #pragma mark - 点击事件
 -(void)clickCancel:(UIButton *)button {
-    //    if (self.selectAction) {
-    //        self.selectAction(nil);
-    //    }
-    
+//    if (self.selectAction) {
+//        self.selectAction(nil);
+//    }
     [self endAnimate];
 }
 
