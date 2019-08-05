@@ -285,10 +285,18 @@
 @end
 
 
-@interface TZAlbumPickerController : UIViewController
+
+typedef void(^TZFAlbumTableViewSelectAction)(TZAlbumModel *albumModel);
+@interface TZAlbumPickerController : UIView
+@property (nonatomic , strong) TZImagePickerController *imagePickerVc;
 @property (nonatomic, assign) NSInteger columnNumber;
 @property (assign, nonatomic) BOOL isFirstAppear;
+/// 选择的相册
+@property (nonatomic, copy) TZFAlbumTableViewSelectAction selectAction;
 - (void)configTableView;
+/// 显示的方法
++(void)showAlbumViewWithImagePickerVc:(TZImagePickerController *)imagePickerVc complete:(void(^)(TZAlbumModel *albumModel))complete;
+
 @end
 
 

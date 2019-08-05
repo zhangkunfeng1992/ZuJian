@@ -40,6 +40,7 @@
 @property (nonatomic, assign) BOOL isSelectOriginalPhoto;
 @property (nonatomic, strong) TZCollectionView *collectionView;
 @property (nonatomic, strong) UILabel *noDataLabel;
+@property (nonatomic, strong) UIButton *showAlbumButton;
 @property (strong, nonatomic) UICollectionViewFlowLayout *layout;
 @property (nonatomic, strong) UIImagePickerController *imagePickerVc;
 @property (strong, nonatomic) CLLocation *location;
@@ -81,7 +82,6 @@ static CGFloat itemMargin = 5;
     _isSelectOriginalPhoto = tzImagePickerVc.isSelectOriginalPhoto;
     _shouldScrollToBottom = YES;
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = _model.name;
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:tzImagePickerVc.cancelBtnTitleStr style:UIBarButtonItemStylePlain target:tzImagePickerVc action:@selector(cancelButtonClick)];
     if (tzImagePickerVc.navLeftBarButtonSettingBlock) {
         UIButton *leftButton = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -98,6 +98,37 @@ static CGFloat itemMargin = 5;
     
     self.operationQueue = [[NSOperationQueue alloc] init];
     self.operationQueue.maxConcurrentOperationCount = 3;
+    
+    UIView *titleView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 180, 45)];
+//    titleView.backgroundColor = [UIColor redColor];
+    self.navigationItem.titleView = titleView;
+    [titleView addSubview:self.showAlbumButton];
+    
+}
+
+-(UIButton *)showAlbumButton {
+    if (!_showAlbumButton) {
+        _showAlbumButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _showAlbumButton.frame = CGRectMake(0, 0, 180, 45);
+        [_showAlbumButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [_showAlbumButton setImage:[UIImage imageNamed:@"photo_select_down"] forState:UIControlStateNormal];
+        [_showAlbumButton setImage:[UIImage imageNamed:@"photo_select_up"] forState:UIControlStateSelected];
+        _showAlbumButton.titleLabel.font = [UIFont systemFontOfSize:15];
+        _showAlbumButton.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10.f);
+        [self.showAlbumButton setTitle:self.model.name forState:UIControlStateNormal | UIControlStateSelected];
+        [_showAlbumButton addTarget:self action:@selector(showAlbum:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    
+    return _showAlbumButton;
+}
+
+-(void)showAlbum:(UIButton *)button{
+    button.selected = !button.selected;
+    [TZAlbumPickerController showAlbumViewWithImagePickerVc:(TZImagePickerController *)self.navigationController complete:^(TZAlbumModel *albumModel) {
+        self.model = albumModel;
+        [self.showAlbumButton setTitle:self.model.name forState:UIControlStateNormal | UIControlStateSelected];
+        [self fetchAssetModels];
+    }];
 }
 
 - (void)fetchAssetModels {
