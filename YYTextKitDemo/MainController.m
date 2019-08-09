@@ -29,7 +29,7 @@
 {
     if (!_dataArray) {
         _dataArray = [NSMutableArray array];
-        [_dataArray addObject:@"自定义布局"];
+//        [_dataArray addObject:@"自定义布局"];
         [_dataArray addObject:@"键盘测试"];
 //        [_dataArray addObject:@"瀑布流"];
         [_dataArray addObject:@"sss"];
