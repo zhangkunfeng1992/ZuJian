@@ -203,7 +203,9 @@
             //点击确
             
         }];
-        
+        imagePC.allowPickingVideo = NO;
+
+        imagePC.modalPresentationStyle = UIModalPresentationFullScreen;
         [self presentViewController:imagePC animated:YES completion:nil];//跳转
 //        [self setBtnStatusWithBtn:button inputView:_inputView1];
         

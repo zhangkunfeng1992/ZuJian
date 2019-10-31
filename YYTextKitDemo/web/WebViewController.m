@@ -56,7 +56,9 @@
 
 -(void)CellDidClickComment:(WebCell *)cell
 {
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:[WebComposeController new]];
+    WebComposeController *VC = [WebComposeController new];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:VC];
+    nav.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:nav animated:YES completion:nil];
 }
 

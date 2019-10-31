@@ -11,6 +11,7 @@
 #import "PromiseKit.h"
 #import "WebStatesLayout.h"
 
-@interface WebApi : NSObject+(PMKPromise <NSArray *> *)loadNewStatusesWithFirst:(WebStatesLayout *)layout;
+@interface WebApi : NSObject
++(PMKPromise <NSArray *> *)loadNewStatusesWithFirst:(WebStatesLayout *)layout;
 @end
 
