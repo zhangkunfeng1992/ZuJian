@@ -1,9 +1,8 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'Zujian' do
+target 'RNTest' do
 
-
-pod 'HomeUI', :path=>'./UI'
+pod 'SDWebImage'
 
 end

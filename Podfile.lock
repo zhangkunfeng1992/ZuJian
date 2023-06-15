@@ -1,16 +1,18 @@
 PODS:
-  - HomeUI (0.1.0)
+  - SDWebImage (5.16.0):
+    - SDWebImage/Core (= 5.16.0)
+  - SDWebImage/Core (5.16.0)
 
 DEPENDENCIES:
-  - HomeUI (from `./UI`)
+  - SDWebImage
 
-EXTERNAL SOURCES:
-  HomeUI:
-    :path: "./UI"
+SPEC REPOS:
+  trunk:
+    - SDWebImage
 
 SPEC CHECKSUMS:
-  HomeUI: e5dcf62f3340f62d680506cb65acb8be2935fb10
+  SDWebImage: 2aea163b50bfcb569a2726b6a754c54a4506fcf6
 
-PODFILE CHECKSUM: 091d9b2104ff2a65e240892793ef4b08b76101d4
+PODFILE CHECKSUM: b9a52a638673930a07b8585d93db76aabcc72a66
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.12.1
